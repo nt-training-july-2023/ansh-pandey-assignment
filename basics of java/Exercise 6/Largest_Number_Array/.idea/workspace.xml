@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9095bde5-703f-46a9-bc6c-464c1aeae6f0" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../Exercise 4/Inc_Dec_Operator/src/Inc_Dec.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Exercise 4/Roots_of_an_Equation/src/Roots_Equation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Exercise 5/Armstrong/src/Exercise4/Armstrong.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Exercise 5/Armstrong/src/Exercise4/Palindrome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Exercise 5/Armstrong/src/Exercise4/Pyramid.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Exercise 5/Armstrong/src/Exercise4/Reversing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Exercise 5/Display_multiplication_Table/src/Multiplication_table.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Exercise 5/Factorial/src/Factorial.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Exercise 5/Sum/src/Sum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../new/index.html" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectId" id="2SpLEtdox3legMbk09GGwEbOnJE" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="Largest_Number_Array" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="Largest_Number_Array" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9095bde5-703f-46a9-bc6c-464c1aeae6f0" name="Changes" comment="" />
+      <created>1689838473391</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1689838473391</updated>
+    </task>
+    <servers />
+  </component>
+</project>

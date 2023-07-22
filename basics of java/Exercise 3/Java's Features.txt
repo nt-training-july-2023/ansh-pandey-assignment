@@ -1,0 +1,34 @@
+java have simple syntax java is object oriented language
+java has removed explicit pointers ,operator overloading
+java is  both compiled as well as interpreted language
+
+
+2..... SIMPLE
+No explicit pointer
+Java Programs run inside a virtual machine
+Classloader: Classloader in Java is a part of the Java Runtime Environment (JRE) which is used to load Java classes into the Java Virtual Machine dynamically.
+Bytecode Verifier: It checks the code fragments for illegal code that can violate access rights to objects.
+
+
+3......PORTABLE
+Java is portable because it facilitates you to carry the Java bytecode to any platform. It doesn't require any implementation.
+
+
+4.....ROBUST
+It uses strong memory management.
+There is a lack of pointers that avoids security problems.
+
+5.....Architecture-neutral
+Java is architecture neutral because there are no implementation dependent features, for example, the size of primitive types is fixed.
+
+6......High-performance
+Java is faster than other traditional interpreted programming languages because Java bytecode is "close" to native code.
+But it is still slower than C++ b/c it is a interpeted language
+
+
+7....Distributed
+Java is distributed because it facilitates users to create distributed applications in Java. RMI and EJB are used for creating distributed applications.
+
+
+8.....Dynamic
+Java is a dynamic language. Java supports the dynamic loading of classes

@@ -1,0 +1,4 @@
+The main() method should be declared static so that the JVM (Java Virtual Machine) can call it without having to create an instance of the class containing the main() method
+
+
+if program is run without the static method then the program get compiled without complication errors

@@ -1,4 +1,4 @@
-package Que_7_Priority;
+package que7priority;
 
  class Thread1 extends Thread{
      public void run(){

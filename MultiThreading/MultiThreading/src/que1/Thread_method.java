@@ -1,4 +1,4 @@
-package Thread_class;
+package que1;
 
 class Method {
 

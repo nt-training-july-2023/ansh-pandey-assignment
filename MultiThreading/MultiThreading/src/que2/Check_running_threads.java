@@ -1,4 +1,4 @@
-package Que_2;
+package que2;
 
 class Thread2 implements Runnable{
     @Override
@@ -8,7 +8,7 @@ class Thread2 implements Runnable{
         }
     }
 }
-class Thread_3 implements Runnable{
+class Thread3 implements Runnable{
     @Override
     public void run(){
         for (int i =0;i<=10;i++){
@@ -28,7 +28,7 @@ public class Check_running_threads implements Runnable{
     public static void main(String[] args) {
         Check_running_threads c = new Check_running_threads();
         Thread2 c2 = new Thread2();
-        Thread_3 c3 = new Thread_3();
+        Thread3 c3 = new Thread3();
         Thread t1 = new Thread(c);
         Thread t2= new Thread(c2);
         Thread t3 = new Thread(c3);

@@ -1,6 +1,4 @@
-package Thread_class;
-
-import java.sql.SQLOutput;
+package que1;
 
 // By using thread class extend
 public class Threadclass extends  Thread {

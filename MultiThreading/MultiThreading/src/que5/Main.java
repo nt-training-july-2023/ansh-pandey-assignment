@@ -1,8 +1,6 @@
-package Each_stateQue_5;
+package que5;
 
-import java.util.Currency;
-
-class Each_state  implements  Runnable{
+class EachState  implements  Runnable{
     // Java program to demonstrate thread states
 
         public void run()
@@ -30,14 +28,14 @@ class Each_state  implements  Runnable{
         }
     }
 
-    public class main implements Runnable {
+    public class Main implements Runnable {
 
 
         public static void main(String[] args) throws InterruptedException {
-           Each_state m1 = new Each_state();
+           EachState m1 = new EachState();
              Thread t1 = new Thread(m1);
 
-              main m2 = new main();
+              Main m2 = new Main();
               Thread t2 = new Thread(m2);
               t1.setName("Thread1");
               t2.setName("Thread2");

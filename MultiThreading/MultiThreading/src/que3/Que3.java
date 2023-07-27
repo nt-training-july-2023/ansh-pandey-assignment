@@ -1,4 +1,4 @@
-package Que_3;
+package que3;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -42,9 +42,9 @@ class Fibonacci implements Runnable{
 
     }
 }
-class Reversing_list implements Runnable{
+class ReversingList implements Runnable{
     List<Integer> rev = new ArrayList<>();
-    public Reversing_list(List<Integer> l) {
+    public ReversingList(List<Integer> l) {
         super();
         rev =l;
     }
@@ -61,7 +61,7 @@ class Reversing_list implements Runnable{
 
     }
 }
-public class Que_3 {
+public class Que3 {
     public static void main(String[] args) {
 
 
@@ -72,7 +72,7 @@ public class Que_3 {
         list.add(42);
         list.add(444);
         System.out.println("Before reversing " + list);
-        Reversing_list obj = new Reversing_list(list);
+        ReversingList obj = new ReversingList(list);
         Display obj2 = new Display(10);
         Fibonacci obj3 = new Fibonacci();
         Thread t1 = new Thread(obj);

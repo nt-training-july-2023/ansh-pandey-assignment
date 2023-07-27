@@ -1,7 +1,5 @@
-package Que_8;
+package que8;
 
-import java.lang.invoke.LambdaMetafactory;
-import java.sql.SQLOutput;
 import java.util.Scanner;
 
 class Deposit extends Thread{
@@ -14,7 +12,7 @@ class Deposit extends Thread{
       }
 
       public  void run(){
-          b.Deposit_Money(Amount);
+          b.depositMoney(Amount);
           System.out.println(" Deposited Money : "+Amount);
           System.out.println("Account Balance after Deposit is : "+ b.getBalance());
       }
@@ -29,14 +27,14 @@ class Deposit extends Thread{
        }
 
        public void run(){
-           b.Withdraw_money(amount);
+           b.withdrawMoney(amount);
            System.out.println("Withdraw Money : "+ amount);
            System.out.println("Account Balance after withdraw is  : "+ b.getBalance());
       }
 
    }
    class Bank {
-      private  int balance ;
+       int balance ;
        int b;
        public   Bank(int initialBalance) {
            balance =0;
@@ -44,7 +42,7 @@ class Deposit extends Thread{
        }
 
 
-       synchronized public void Withdraw_money( int amount){
+       synchronized public void withdrawMoney( int amount){
            if(balance>=amount){
                balance = balance- amount;
                System.out.println("Amount after withdraw is " +balance);
@@ -54,7 +52,7 @@ class Deposit extends Thread{
            }
 
       }
-      synchronized public void Deposit_Money(int amount) {
+      synchronized public void depositMoney(int amount) {
           balance += amount;
           if (balance > 0) {
               int i = 0;
@@ -71,13 +69,13 @@ class Deposit extends Thread{
        }
 
    }
-public class main {
+public class Main {
 
     public static void main(String[] args) throws InterruptedException {
         int InitialBalance = 0;
-       Bank b = new Bank(InitialBalance);
-       b.Deposit_Money(InitialBalance);
-//        System.out.println(b.getBalance());
+        Bank b = new Bank(InitialBalance);
+        b.depositMoney(InitialBalance);
+
 
         Scanner Sc = new Scanner(System.in);
         System.out.println("Enter the amount you Want to withdraw");

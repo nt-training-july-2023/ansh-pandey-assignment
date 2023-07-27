@@ -1,4 +1,4 @@
-package Que_4;
+package que4;
 
 class Message implements Runnable{
     String mess;

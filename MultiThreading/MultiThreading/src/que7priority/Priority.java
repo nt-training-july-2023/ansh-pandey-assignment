@@ -1,4 +1,4 @@
-package Que_7_Priority;
+package que7priority;
 class ThreadA extends  Thread{
 
 

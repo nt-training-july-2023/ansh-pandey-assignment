@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"Master","l":"Len_String"},{"p":"Master","l":"main"},{"p":"<Unnamed>","l":"Main"},{"p":"Master","l":"MyInter"},{"p":"Master","l":"Sum"},{"p":"Master.Thread_using_lamda","l":"Thread"}];updateSearchResults();

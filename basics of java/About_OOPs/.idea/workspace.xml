@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0c5cb8eb-eb65-4e64-b04a-f34965eaf004" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../Exercise 4/Inc_Dec_Operator/src/Inc_Dec.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exercise 4/Roots_of_an_Equation/src/Roots_Equation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exercise 5/Armstrong/src/Exercise4/Armstrong.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exercise 5/Armstrong/src/Exercise4/Palindrome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exercise 5/Armstrong/src/Exercise4/Pyramid.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exercise 5/Armstrong/src/Exercise4/Reversing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exercise 5/Display_multiplication_Table/src/Multiplication_table.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exercise 5/Factorial/src/Factorial.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exercise 5/Sum/src/Sum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exercise 6/Array_Exercise/src/Array_Exercise/Average_Num.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exercise 6/Array_Exercise/src/Array_Exercise/Largest_Number.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exercise 6/Array_Exercise/src/Array_Exercise/Rotate_Array.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exercise 6/Array_Exercise/src/Array_Exercise/Two_Matrices.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../new/index.html" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="2SpidcKe2fg9c55KsgeLHDFsQvN" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/anshp/Desktop/Nucleus Training/basics of java/About_OOPs&quot;
+  }
+}</component>
+  <component name="RunManager" selected="Application.main">
+    <configuration name="Non_Static" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OOPs_.OOPS_Concept.Que_6_Nested_Classes.Non_Static" />
+      <module name="untitled" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="OOPs_.OOPS_Concept.Que_6_Nested_Classes.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Operator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OOPs_.OOPS_Concept.PolyMorphism.Operator" />
+      <module name="untitled" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="OOPs_.OOPS_Concept.PolyMorphism.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Property_Class.main" />
+      <module name="untitled" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Property_Class.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.main" />
+        <item itemvalue="Application.Non_Static" />
+        <item itemvalue="Application.Operator" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0c5cb8eb-eb65-4e64-b04a-f34965eaf004" name="Changes" comment="" />
+      <created>1689850014402</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1689850014402</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.ArithmeticException" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

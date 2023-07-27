@@ -1,5 +1,7 @@
 public class Exception {
     public static void main(String[] args) {
+
+        // using try catch
         try{
             int a =55;
             int b=55/0;

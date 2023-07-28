@@ -34,11 +34,12 @@ class AtmMachine {
             System.out.println("Enter acc balance");
             double Acc_balance = S.nextDouble();
             System.out.println("Enter Withdrawn Ammount");
-            double Withdrawn_amt = S.nextDouble();
+            String Withdrawn_amt = S.next();
             AtmMachine ATM = new AtmMachine(Acc_balance);
             try {
-                ATM.Withdraw(Withdrawn_amt);
-            } catch (InvalidInputException e) {
+                ATM.Withdraw(Double.parseDouble(Withdrawn_amt));
+
+            } catch (NumberFormatException | InvalidInputException e) {
                 System.out.println("Invalid input " + e.getMessage());
             }
 

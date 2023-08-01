@@ -12,9 +12,8 @@ import java.util.Scanner;
 public class Area {
     /**
      *
-     * @param a Length of rectangle
-     *
-     * @param b width of rectangle
+     * @param a a length of Rectangle
+     * @param b b width of Rectangle
      */
     public static void   Rect_Area(double a,double b){
         System.out.println("Area of Rectangle is "+ a*b);

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="Registration.css">
+</head>
+<body>
+    
+         <!-- <div class="box1"><h1>Registration</h1>
+            <div class ="box3">
+             <div  >Full name <br><input type="text" name="Enter Your Name" id="one" placeholder="Enter your Name"></div>
+             <div  >User name <br><input type="text" name="User Name" id="two" placeholder="User Name"></div>
+             Full name <br><input type="text" name="Enter Your Name" id="one" placeholder="Enter your Name"></div>
+             <div  >User name <br><input type="text" name="User Name" id="two" placeholder="User Name"></div>
+             Full name <br><input type="text" name="Enter Your Name" id="one" placeholder="Enter your Name"></div>
+             <div  >User name <br><input type="text" name="User Name" id="two" placeholder="User Name"></div>
+             Full name <br><input type="text" name="Enter Your Name" id="one" placeholder="Enter your Name"></div>
+             <div  >User name <br><input type="text" name="User Name" id="two" placeholder="User Name"></div>
+             Full name <br><input type="text" name="Enter Your Name" id="one" placeholder="Enter your Name"></div>
+             <div  >User name <br><input type="text" name="User Name" id="two" placeholder="User Name"></div>
+             Full name <br><input type="text" name="Enter Your Name" id="one" placeholder="Enter your Name"></div>
+             <div  >User name <br><input type="text" name="User Name" id="two" placeholder="User Name"></div>
+             <div ></div> -->
+
+        
+           
+
+
+           
+
+   <div class="Box">
+    <div class="Title">Registration</div>
+    <form action="/myaction.php" name="myForm" onsubmit="return validationForm" method="post" >
+        <div class="box1">
+            <div class="inputbox">
+                <label for="one"  class="label">Full Name</label>
+                <input type="text" name="fname" placeholder="Enter Your Name" id="one">
+                <span class="formerror">*error</span>
+            </div>
+            <div class="inputbox">
+                <label for="Two"  class="label">User Name</label>
+                <input type="text" name="fUserName" placeholder="Enter Your Name" id="two">
+            </div>
+            <div class="inputbox">
+                <label for="three" class="label">Email</label>
+                <input type="text" name="fEmail" placeholder="Enter Your Name" id="three">
+            </div>
+            <div class="inputbox">
+                <label for="four"  class="label">Phone number</label>
+                <input type="text" name="fPhone" placeholder="Enter Your Name" id="four">
+            </div>
+            <div class="inputbox">
+                <label for="five" class="label">Password</label>
+                <input type="text" name="fPassword" placeholder="Enter Your Name" id="five">
+            </div>
+            <div class="inputbox">
+                <label for="six" class="label">Confirm Password</label>
+                <input type="text" name="fConfirmPassword" placeholder="Enter Your Name" id="six">
+            </div>
+            <div class="genderDetails">
+               <span class="gender-title">Gender</span>
+               <div class="category">
+                <label for="">
+                    <span class="dot one"></span>
+                    <input type="radio" name="gender">
+                    <div class="gender">Male</div>
+                </label>
+                <label for="">
+                    <span class="dot one"></span>
+                    <input type="radio" name="gender">
+                    <div class="gender">Female</div>
+                </label>
+                <label for="">
+                    <span class="dot one"></span>
+                    <input type="radio" name="gender">
+                    <div class="gender">prefer not to say</div>
+                </label>
+               </div>
+            </div>
+            
+        </div>
+        <div class="button">
+            <input type="submit" value="Register" >
+        </div>
+    </form>
+   </div>
+    
+    
+</body>
+<script>
+    function seterror(id,error){
+
+    }
+    function validationForm(){
+        var returnval = true;
+
+        // perform validation and if validation fails ,set the value of return val to false
+    var name = document.forms['myForm']["fname"].value;
+    if(name.length>5){
+        seterror("name ","Length of name is too short")
+        returnval =false;
+    }
+    return false;
+
+    }
+</script>
+</html>

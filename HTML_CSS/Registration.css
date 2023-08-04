@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+/* improting the url */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Poppins',sans-serif;
+}
+/* for body css */
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, #71b7e6, #9b59b6);
+}
+/* for outer most div */
+.Box{
+    max-width: 700px;
+    width: 100%;
+    background: white;
+    padding: 25px 30px;
+    border-radius: 5px;
+}
+/* for Registration Title */
+.Title{
+    font-size: 25px;
+    font-weight: 500;
+    position: relative;
+}
+/* this is for the shadow */
+.Title::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 30px;
+    background:linear-gradient(to right, #71b7e6, #9b59b6) ;
+}
+/* this is for the form inside the box1 class */
+.box1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px 0 12px 0;
+}
+ .inputbox{
+   
+    width: 47%;
+}
+.label{
+    display: block;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+.inputbox input{
+    height: 45px;
+    width: 100%;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding-left: 15px;
+    font-size: 16px;
+    border-bottom-width: 2px;
+    transition: all 0.3s ease;
+    border-color: #9b59b6;
+}
+.gender-title{
+    font-size: 20px;
+}
+ .category{
+    display: flex;
+    width: 90vh;
+    background: rgb(248, 243, 243);
+    justify-content: space-between;
+}
+ .category label{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.category input{
+    height: 20px;
+    width: 20px;
+    padding-right: 5px;
+}
+/* .genderDetails .category .dot{
+    padding-top: 2px;
+    height: 15px;
+    width: 15px;
+    background: rgb(116, 91, 91);
+    border-radius: 50%;
+    margin-right: 10px;
+} */
+.button{
+    height: 45px;
+    margin: 45px 0;
+}
+ .button input{
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(to right, #71b7e6, #9b59b6);
+    font-weight: 500;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+@media (max-width:584px) {
+    .Box{
+        max-width: 100%;
+    }
+    form .box1 .inputbox{
+        margin-bottom: 15px;
+        width: 100%;
+    }
+    form .genderDetails .category{
+        width: 100%;
+    }
+    
+}
+
